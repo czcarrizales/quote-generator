@@ -15,18 +15,18 @@ function App() {
   }
 
   return (
-    <>
-      <div>
+    <div className='app-main-container'>
+      <div className='app-quote-container'>
         <h1>"{quote}"</h1>
       </div>
-      <div>
+      <div className='app-dropdown-container'>
         <label htmlFor="category">Category</label>
-        <select name="category" id="category">
+        <select className='app-dropdown-select' name="category" id="category">
           <option value="test">Test</option>
         </select>
       </div>
-      <button onClick={generateRandomQuote}>Generate Quote</button>
-    </>
+      <button className='app-dropdown-button' onClick={generateRandomQuote}>Generate Quote</button>
+    </div>
   )
 }
 
