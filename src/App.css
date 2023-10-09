@@ -1,6 +1,8 @@
 .app-main-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 500px;
 }
 
 .app-quote-container {
@@ -12,8 +14,8 @@
   padding: 5rem 1rem;
   text-align: center;
   font-size: 16px;
-  margin-top: 40px;
-  height: 100px;
+  height: 300px;
+  width: 100%;
 }
 
 .app-quote-container h1 {
